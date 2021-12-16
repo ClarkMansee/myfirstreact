@@ -14,7 +14,6 @@ const Router = ()=>{
                     <Route exact path="/employees" element={<Employee/>}/>
                     <Route exact path="/add" element={<AddEmployee/>}/>
                     <Route exact path="/edit/:employee_id" element={<AddEmployee/>}/>
-                    <Route exact path="*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
