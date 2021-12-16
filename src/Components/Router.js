@@ -10,11 +10,11 @@ const Router = ()=>{
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/>
-                    <Route exact path="/employees" element={<Employee/>}/>
-                    <Route exact path="/add" element={<AddEmployee/>}/>
-                    <Route exact path="/edit/:employee_id" element={<AddEmployee/>}/>
-                    <Route exact path="emp" element={<PageNotFound/>}/>
+                    <Route exact path="/myFirstReact" element={<Home/>}/>
+                    <Route exact path="/myFirstReact/employees" element={<Employee/>}/>
+                    <Route exact path="/myFirstReact/add" element={<AddEmployee/>}/>
+                    <Route exact path="/myFirstReact/edit/:employee_id" element={<AddEmployee/>}/>
+                    <Route exact path="*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
